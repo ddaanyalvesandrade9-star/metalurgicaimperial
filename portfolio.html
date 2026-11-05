@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio | Metalúrgica Imperial, Campina Grande, PB</title>
+  <meta name="description" content="Trabalhos feitos na oficina da Metalúrgica Imperial: reboques, móveis em ferro, equipamentos de academia e carrinhos. Peça seu orçamento pelo WhatsApp.">
+  <meta name="theme-color" content="#14171A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Metalúrgica Imperial">
+  <meta property="og:title" content="Portfólio | Metalúrgica Imperial">
+  <meta property="og:description" content="Reboques, móveis em ferro, equipamentos de academia e carrinhos feitos em Campina Grande, PB.">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo/simbolo-brasa.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="cabecalho">
+    <div class="container cabecalho__in">
+      <a class="logo" href="index.html#inicio" aria-label="Metalúrgica Imperial, ir para o início">
+        <svg class="logo__h" viewBox="0 0 760 160" role="img" aria-label="Metalúrgica Imperial">
+          <g transform="scale(1.6) translate(-10 -4)"><path d="M14 40V14L38 28L60 8L82 28L106 14V40H72V72H106V100H14V72H48V40Z" fill="#F5A400"/></g>
+          <text x="480" y="38" text-anchor="middle" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="500" font-size="27" letter-spacing="13" fill="#9AA3AB">METALÚRGICA</text>
+          <text x="480" y="140" text-anchor="middle" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="800" font-size="106" letter-spacing="6" fill="#EEEDEA">IMPERIAL</text>
+        </svg>
+        <img class="logo__s" src="assets/logo/simbolo-brasa.svg" width="40" height="40" alt="Metalúrgica Imperial">
+      </a>
+
+      <nav class="menu" aria-label="Principal">
+        <a href="index.html#inicio">Início</a>
+        <a href="portfolio.html" aria-current="page">Portfólio</a>
+        <a href="sobre.html">Sobre nós</a>
+      </nav>
+
+      <a class="btn btn--primario cabecalho__cta" href="https://wa.me/5583993141872?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir orçamento</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero hero--pagina escuro">
+      <div class="hero__orb" aria-hidden="true"></div>
+      <div class="container hero__in">
+        <div class="hero__texto">
+          <p class="selo">Trabalhos realizados</p>
+          <h1><span class="linha"><span class="contorno">Portfólio</span></span></h1>
+          <p class="hero__lead">Alguns trabalhos feitos na nossa oficina. Todos podem ser adaptados à sua medida.</p>
+        </div>
+      </div>
+    </section>
+
+        <section id="galeria-trabalhos" class="secao secao--chapa" aria-labelledby="t-portfolio">
+      <div class="container">
+        <h2 id="t-portfolio" class="sr-only">Galeria de trabalhos</h2>
+
+        <div class="filtros" role="group" aria-label="Filtrar por categoria">
+          <button type="button" class="filtro" data-filtro="todos" aria-pressed="true">Todos</button>
+          <button type="button" class="filtro" data-filtro="reboques" aria-pressed="false">Reboques</button>
+          <button type="button" class="filtro" data-filtro="moveis" aria-pressed="false">Móveis em ferro</button>
+          <button type="button" class="filtro" data-filtro="academia" aria-pressed="false">Equipamentos de academia</button>
+          <button type="button" class="filtro" data-filtro="carrinhos" aria-pressed="false">Carrinhos e outros</button>
+        </div>
+
+        <!--
+          Para trocar um quadro pela foto real, substitua o <div class="foto-ph"> por:
+          <img src="assets/fotos/NOME.webp" width="1200" height="900" loading="lazy" alt="Descrição da foto">
+          e preencha a legenda.
+        -->
+        <ul class="galeria" id="galeria">
+          <li class="item" data-cat="reboques"><button type="button" class="item__btn"><div class="item__media"><img src="assets/fotos/reboque-madeira.jpg" width="1800" height="1354" loading="lazy" alt="Reboque carga com tampas de madeira e dois eixos"></div><span class="item__legenda">Reboque carga com carroceria de madeira</span></button></li>
+          <li class="item" data-cat="reboques"><button type="button" class="item__btn"><div class="item__media"><img src="assets/fotos/reboque-moto-cinza.jpg" width="1800" height="1354" loading="lazy" alt="Reboque cinza para moto com guincho e rampas"></div><span class="item__legenda">Reboque para moto cinza com guincho</span></button></li>
+          <li class="item" data-cat="reboques"><button type="button" class="item__btn"><div class="item__media"><img src="assets/fotos/reboque-moto-cinza-lateral.jpg" width="1800" height="1354" loading="lazy" alt="Reboque cinza para moto visto de trás, com rodas esportivas"></div><span class="item__legenda">Reboque para moto cinza</span></button></li>
+          <li class="item" data-cat="reboques"><button type="button" class="item__btn"><div class="item__media"><img src="assets/fotos/reboque-moto-preto.jpg" width="1800" height="1226" loading="lazy" alt="Reboque preto para moto com guincho"></div><span class="item__legenda">Reboque para moto preto</span></button></li>
+          <li class="item" data-cat="reboques"><button type="button" class="item__btn"><div class="item__media"><img src="assets/fotos/reboque-moto-preto-guincho.jpg" width="1800" height="1221" loading="lazy" alt="Reboque preto para moto com guincho elétrico"></div><span class="item__legenda">Reboque para moto preto com guincho</span></button></li>
+          <li class="item" data-cat="moveis"><button type="button" class="item__btn"><div class="item__media"><img class="contem" src="assets/fotos/movel-cabideiro-dourado.jpg" width="1350" height="1800" loading="lazy" alt="Cabideiro dourado em ferro com rodízios"></div><span class="item__legenda">Cabideiro dourado com rodízios</span></button></li>
+          <li class="item" data-cat="moveis"><button type="button" class="item__btn"><div class="item__media"><img src="assets/fotos/movel-nicho-madeira.jpg" width="1440" height="1412" loading="lazy" alt="Nicho de parede em ferro preto com prateleiras de madeira"></div><span class="item__legenda">Nicho em ferro com prateleiras de madeira</span></button></li>
+          <li class="item" data-cat="moveis"><button type="button" class="item__btn"><div class="item__media"><img src="assets/fotos/movel-nicho-preto.jpg" width="1440" height="1408" loading="lazy" alt="Nicho de parede todo em ferro preto"></div><span class="item__legenda">Nicho em ferro preto</span></button></li>
+          <li class="item" data-cat="academia"><button type="button" class="item__btn"><div class="item__media"><img class="contem" src="assets/fotos/academia-kit-vermelho.jpg" width="720" height="540" loading="lazy" alt="Barras e suporte de anilhas pintados de vermelho"></div><span class="item__legenda">Kit de barras e suporte de anilhas</span></button></li>
+          <li class="item" data-cat="academia"><button type="button" class="item__btn"><div class="item__media"><img class="contem" src="assets/fotos/academia-puxador-triangulo.jpg" width="1200" height="1600" loading="lazy" alt="Puxador triângulo de academia em ferro preto"></div><span class="item__legenda">Puxador triângulo</span></button></li>
+          <li class="item" data-cat="academia"><button type="button" class="item__btn"><div class="item__media"><img class="contem" src="assets/fotos/academia-barras.jpg" width="768" height="380" loading="lazy" alt="Barras de academia pretas com travas"></div><span class="item__legenda">Barras com travas</span></button></li>
+          <li class="item" data-cat="carrinhos"><button type="button" class="item__btn"><div class="item__media"><img class="contem" src="assets/fotos/carrinho-vermelho-caixa.jpg" width="1200" height="900" loading="lazy" alt="Carrinho de carga vermelho com caixa plástica"></div><span class="item__legenda">Carrinho de carga</span></button></li>
+          <li class="item" data-cat="carrinhos"><button type="button" class="item__btn"><div class="item__media"><img class="contem" src="assets/fotos/carrinho-vermelho.jpg" width="1200" height="900" loading="lazy" alt="Carrinho de carga vermelho com duas rodas"></div><span class="item__legenda">Carrinho de carga</span></button></li>
+          <li class="item" data-cat="carrinhos"><button type="button" class="item__btn"><div class="item__media"><img class="contem" src="assets/fotos/carrinho-azul.jpg" width="1200" height="900" loading="lazy" alt="Carrinho de carga azul com duas rodas"></div><span class="item__legenda">Carrinho de carga</span></button></li>
+        </ul>
+
+        <div class="portfolio__fecho reveal">
+          <p>Quer algo parecido? Fale com a gente.</p>
+          <a class="btn btn--primario" href="https://wa.me/5583993141872?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir orçamento</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape escuro">
+    <div class="container">
+      <div class="rodape__topo">
+        <div class="rodape__marca">
+          <a class="logo" href="index.html#inicio" aria-label="Metalúrgica Imperial, voltar ao início">
+            <svg class="logo__h logo__h--rodape" viewBox="0 0 760 160" role="img" aria-label="Metalúrgica Imperial">
+              <g transform="scale(1.6) translate(-10 -4)"><path d="M14 40V14L38 28L60 8L82 28L106 14V40H72V72H106V100H14V72H48V40Z" fill="#F5A400"/></g>
+              <text x="480" y="38" text-anchor="middle" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="500" font-size="27" letter-spacing="13" fill="#9AA3AB">METALÚRGICA</text>
+              <text x="480" y="140" text-anchor="middle" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="800" font-size="106" letter-spacing="6" fill="#EEEDEA">IMPERIAL</text>
+            </svg>
+          </a>
+          <p class="rodape__lema">Qualidade, compromisso e excelência em cada projeto.</p>
+          <ul class="rodape__redes">
+            <li><a href="https://www.instagram.com/metalurgica_imperial10/" target="_blank" rel="noopener" aria-label="Instagram da Metalúrgica Imperial">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/></svg></a></li>
+            <li><a href="https://wa.me/5583993141872?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="WhatsApp da Metalúrgica Imperial">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a></li>
+          </ul>
+        </div>
+
+        <nav class="rodape__colunas" aria-label="Rodapé">
+          <div class="rodape__col">
+            <h2 class="rodape__titulo"><button type="button" class="rodape__toggle" aria-expanded="false" aria-controls="rodape-col-1"><span>Atendimento</span></button></h2>
+            <div class="rodape__painel" id="rodape-col-1"><div class="rodape__painel-in"><ul>
+              <li><a href="https://wa.me/5583993141872?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Fale pelo WhatsApp ↗</a></li>
+              <li><a href="https://www.instagram.com/metalurgica_imperial10/" target="_blank" rel="noopener">Instagram ↗</a></li>
+              <li><a href="https://wa.me/5583993141872?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir orçamento ↗</a></li>
+            </ul></div></div>
+          </div>
+          <div class="rodape__col">
+            <h2 class="rodape__titulo"><button type="button" class="rodape__toggle" aria-expanded="false" aria-controls="rodape-col-2"><span>Navegação</span></button></h2>
+            <div class="rodape__painel" id="rodape-col-2"><div class="rodape__painel-in"><ul>
+              <li><a href="index.html#inicio">Início</a></li>
+              <li><a href="portfolio.html">Portfólio</a></li>
+              <li><a href="sobre.html">Sobre nós</a></li>
+            </ul></div></div>
+          </div>
+          <div class="rodape__col">
+            <h2 class="rodape__titulo"><button type="button" class="rodape__toggle" aria-expanded="false" aria-controls="rodape-col-3"><span>O que fazemos</span></button></h2>
+            <div class="rodape__painel" id="rodape-col-3"><div class="rodape__painel-in"><ul>
+              <li><a href="index.html#servicos">Reboques</a></li>
+              <li><a href="index.html#servicos">Móveis em ferro</a></li>
+              <li><a href="index.html#servicos">Equipamentos de academia</a></li>
+              <li><a href="index.html#servicos">Carrinhos e utilitários</a></li>
+              <li><a href="index.html#servicos">Peças sob medida</a></li>
+            </ul></div></div>
+          </div>
+          <div class="rodape__col">
+            <h2 class="rodape__titulo"><button type="button" class="rodape__toggle" aria-expanded="false" aria-controls="rodape-col-4"><span>Informações</span></button></h2>
+            <div class="rodape__painel" id="rodape-col-4"><div class="rodape__painel-in"><ul class="rodape__info">
+              <li>Loteamento Quintas da Mata, 250B</li>
+              <li>São José da Mata, Campina Grande, PB</li>
+              <li><a href="https://www.google.com/maps/search/?api=1&query=Loteamento%20Quintas%20da%20Mata%20250B%2C%20S%C3%A3o%20Jos%C3%A9%20da%20Mata%2C%20Campina%20Grande%20-%20PB" target="_blank" rel="noopener">Ver no Google Maps</a></li>
+              <li>Horário <b class="pend">[PREENCHER]</b></li>
+              <li>CNPJ <b class="pend">[PREENCHER]</b></li>
+            </ul></div></div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="rodape__base">
+        <p>© 2026 Metalúrgica Imperial. Todos os direitos reservados.</p>
+        <a href="https://wa.me/5583993141872?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Entre em contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="zap-fixo" href="https://wa.me/5583993141872?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+    <svg class="icone-btn" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    Pedir orçamento
+  </a>
+
+  <!-- Ampliação das fotos -->
+  <dialog id="lightbox" class="lightbox" aria-label="Foto ampliada">
+    <button type="button" class="lightbox__x" data-fechar aria-label="Fechar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+    </button>
+    <button type="button" class="lightbox__nav lightbox__nav--ant" data-ant aria-label="Foto anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <figure class="lightbox__fig">
+      <div class="lightbox__media" id="lightbox-media"></div>
+      <figcaption id="lightbox-legenda"></figcaption>
+    </figure>
+    <button type="button" class="lightbox__nav lightbox__nav--prox" data-prox aria-label="Próxima foto">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </dialog>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

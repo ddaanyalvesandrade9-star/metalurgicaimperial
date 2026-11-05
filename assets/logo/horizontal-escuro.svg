@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 160" role="img" aria-label="Metalúrgica Imperial">
+<g transform="scale(1.6) translate(-10 -4)"><path d="M14 40V14L38 28L60 8L82 28L106 14V40H72V72H106V100H14V72H48V40Z" fill="#F5A400"/></g>
+<text x="480" y="38" text-anchor="middle" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="500" font-size="27" letter-spacing="13" fill="#9AA3AB">METALÚRGICA</text>
+<text x="480" y="140" text-anchor="middle" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="800" font-size="106" letter-spacing="6" fill="#EEEDEA">IMPERIAL</text>
+</svg>
